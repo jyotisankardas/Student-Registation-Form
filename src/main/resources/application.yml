@@ -1,0 +1,24 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    password: tiger
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: scott
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: Jy9437524680@
+    port: 587
+    username: jyotisankardas50@gmail.com
+    properties.mail.smtp :
+      auth: true
+      starttls.enable: true
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp

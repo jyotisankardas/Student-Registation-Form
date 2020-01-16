@@ -1,0 +1,13 @@
+<b>Hi ${name},<b><br><br>
+
+&nbsp;&nbsp;Greetings for the day..!!
+
+     <p>Your  Registration is all most finished .<p>
+     <h4>your temporary password is:: <b>${pws}</b></h4> .
+     
+    <p> Please follow the link bellow and log in to your account .<p><br>
+     
+     <b><a href="http://localhost:9090/unlock?email=${email}">Click to unlock Your Account</a></b><br><br>
+     
+     <b>Thank you...</b>
+	
